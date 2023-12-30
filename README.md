@@ -16,6 +16,10 @@ docker volume create --driver local \
 volumes:
   nfs-volume:
     external: true
+services:
+  service-name:
+    volumes:
+      - nfs-volume:/path/to/mount # maybe /nfs-files
 ```
 
 ## References:
