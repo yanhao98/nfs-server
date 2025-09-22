@@ -6,6 +6,6 @@
     ":disableMajorUpdates",
     ":automergeMinor",
     "docker:pinDigests",
-    "regexManagers:dockerfileVersions"
+    "customManagers:dockerfileVersions"
   ]
 }
